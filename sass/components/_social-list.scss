@@ -1,4 +1,4 @@
-.social__list {
+.social {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,7 +7,7 @@
 .social__item:not(:last-child) {
         margin-right: 10px;
     }
-.social__network{
+.social__link{
     width: 44px;
     height: 44px;
     display: flex;

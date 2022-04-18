@@ -22,3 +22,54 @@ img {
     max-width: 100%;
     height: auto;
 }
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+.visually__hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    text-align: center;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section__title {
+    font-weight: 700;
+    letter-spacing: 0.03em;;
+
+    color: $bold-text-color;
+}
+
+.nav__link--current::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: $accent-color;
+}

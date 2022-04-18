@@ -1,17 +1,11 @@
-.clients{
-    text-align: center;
-}
-.clients__title{
-    font-weight: 700;
+
+.section__title{
     font-size: 36px;
     line-height: 1.16;
-    letter-spacing: 0.03em;
-    
-    color:$bold-text-color;
-
+   
     margin-bottom: 50px;
 }
-.clients__list{
+.clients{
     display: flex;
 }
 .clients__item{

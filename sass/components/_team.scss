@@ -1,8 +1,7 @@
-.team{
-    text-align: center;
-    background-color: $background-color;
+.section--team-background{
+     background-color: $background-color;
 }
-.team__title{
+.section__title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -11,7 +10,7 @@
     color: $bold-text-color;
     margin-bottom: 50px;
 }
-.team__list{
+.team{
     display: flex;
 }
 
@@ -28,7 +27,7 @@
 .team__desk{
     padding: 30px 0;
 }
-.team__name{
+.team__title{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -38,7 +37,7 @@
 
     margin-bottom: 10px;
 }
-.team__position{
+.team__text{
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
